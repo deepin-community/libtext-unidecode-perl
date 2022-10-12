@@ -1,0 +1,69 @@
+libtext-unidecode-perl (1.30-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * New upstream release.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 3.9.8.
+  * Update short and long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 03 Dec 2016 22:09:07 +0100
+
+libtext-unidecode-perl (1.27-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 27 Oct 2015 21:01:33 +0100
+
+libtext-unidecode-perl (1.24-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.24.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 Sep 2015 21:03:04 +0200
+
+libtext-unidecode-perl (1.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/upstream/metadata
+  * Import upstream version 1.23
+  * Bump debhelper compatibility level to 9
+  * Add autopgktest-pkg-perl
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Fri, 14 Aug 2015 16:16:41 -0300
+
+libtext-unidecode-perl (1.22-1) unstable; urgency=medium
+
+  * Package now maintained by the Debian Perl group
+  * Update debian/watch to metacpan URL
+  * New upstream release
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Update debian/rules to minimal dh style
+  * Conform with copyright-format 1.0
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 04 Oct 2014 21:55:51 +0100
+
+libtext-unidecode-perl (0.04-2) unstable; urgency=low
+
+  * Fix debian/rules rmdir bug (closes: #467978)
+  * Update Standards-Version (no changes)
+  * Standardize debian/watch format
+  * debian/control: add Homepage field
+  * Fix make distclean lintian warning
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun,  2 Mar 2008 17:59:42 +0000
+
+libtext-unidecode-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Dominic Hargreaves <dom@earth.li>  Tue,  4 Jan 2005 00:09:05 +0000
+
