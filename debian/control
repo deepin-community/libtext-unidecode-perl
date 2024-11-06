@@ -4,17 +4,18 @@ Uploaders: Dominic Hargreaves <dom@earth.li>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: perl
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtext-unidecode-perl.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libtext-unidecode-perl.git
-Homepage: http://search.cpan.org/dist/Text-Unidecode/
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-unidecode-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-unidecode-perl.git
+Homepage: https://metacpan.org/release/Text-Unidecode
 
 Package: libtext-unidecode-perl
 Architecture: all
 Depends: ${perl:Depends},
          ${misc:Depends}
+Multi-Arch: foreign
 Description: US-ASCII transliterations of Unicode text
  It often happens that you have non-Roman text data in Unicode, but you can't
  display it -- usually because you're trying to show it to a user via an
